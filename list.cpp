@@ -113,4 +113,5 @@ void FineGrainedQueue::clear() {
         delete current;
         current = temp;
     }
+    delete m_queue_mutex;
 };
